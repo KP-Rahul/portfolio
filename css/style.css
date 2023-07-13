@@ -1,0 +1,59 @@
+.gradient-background {
+    background: linear-gradient(300deg, #9567F5, #745DF5, #66B8E6, #5EF2B1, #3426F5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#dp{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.hover:hover{
+    color:white;
+}
+
+small{
+    font-size: larger;
+}
+
+.project-btn{
+  color: white;
+  background-color: #2AD1CE;
+  border: none;
+}
+
+.project-btn:hover{
+  color: #2AD1CE;
+  background-color: white;
+  outline: white;
+  border: white;
+}
+
+.project-font{
+  font-size: 20px;
+  font-weight:600;
+}
+
+.project-text {
+  font-size:18px;
+  font-family: 'Gill Sans MT',  sans-serif;
+}
